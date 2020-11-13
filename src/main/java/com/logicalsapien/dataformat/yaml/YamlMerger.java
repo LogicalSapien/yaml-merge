@@ -7,6 +7,9 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.fasterxml.jackson.databind.node.TextNode;
 
+/**
+ * Merger class to merge two Json Nodes.
+ */
 public class YamlMerger {
 
     // solution based on: http://stackoverflow.com/a/32447591, but adapted

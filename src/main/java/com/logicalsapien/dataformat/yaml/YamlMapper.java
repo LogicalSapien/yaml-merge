@@ -10,6 +10,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.fasterxml.jackson.dataformat.yaml.YAMLGenerator;
 
+/**
+ * Class to read various file inputs and map to JsonNode.
+ */
 public class YamlMapper {
 
     private static final ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
